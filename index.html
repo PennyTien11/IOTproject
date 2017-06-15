@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Mirror</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+    <script src="js/main.js"></script>
+
+    <!-- Resource jQuery -->
+</head>
+
+<body>
+    <section id="top" data-scroll-index="0">
+     <video autoplay loop muted src="video/bgvideo.mp4" id="video"></video>
+        <div id="title">
+            <h1>SMART MIRROR</h1>
+            <div id="nav">
+                <h3><a href="#">Sign up</a></h3>
+                &nbsp;&nbsp;
+                <h3><a href="#">Features</a></h3>
+                &nbsp;&nbsp;
+                <h3><a href="#">Contact</a></h3>
+            </div>
+        </div>
+        
+       
+        <div class="intro">
+            <form class="form-group has-error" action="main.php">
+                <input type="text" id="inputSuccess1" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+          </form>
+        </div>
+    </section>
+</body>
+
+</html>
+
+

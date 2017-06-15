@@ -1,0 +1,76 @@
+#upcol{
+	background-color: #d8bfd8;
+	font-size: 18px;
+	font-family: serif;
+	opacity: 0.9;
+	border: 0;
+}
+
+nav .navbar-brand{
+	font-weight:bold;
+	font-family: sans-serif;
+	font-size:26px;
+}
+
+#upcol .dropdown-menu{
+	font-size: 17px;
+}
+
+#bgp {
+    width: 100%;
+    opacity: 0.2;
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+   	top:1em;
+   	left: 0;
+   	right:0;
+   	bottom: 0;
+}
+
+body{
+	display:block;
+	padding-top: 4em;
+	margin-left: 4%;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	margin: 30px 40px;
+	padding-bottom: 50px;
+	z-index: 40;
+	float:left;
+}
+
+select{
+	width: 150px;
+}
+
+.pics img{
+	border:1.5px solid #fff;
+	padding:10px;
+	z-index: 1;
+}
+
+.item .pics{
+	float:left;
+	margin:5px 30px;
+	font-family:Microsoft JhengHei;
+}
+
+.item .pics #title{
+	padding-top:10px;
+	text-align:center;
+	font-family:Microsoft JhengHei;
+	font-size:20px;
+}
+
+#selector{
+	width: 20%;
+}
+
+.infomation{
+	padding: 40px;
+	color: #808080;
+}

@@ -1,0 +1,21 @@
+#upcol{
+	background-color: #ffb6c1;
+	font-size: 18px;
+	font-family: serif;
+	opacity: 1;
+	border: 0;
+}
+
+#upcol .dropdown-menu{
+	font-size: 17px;
+}
+
+nav .navbar-brand{
+	font-weight:bold;
+	font-family: sans-serif;
+	font-size:26px;
+}
+
+#upcol .dropdown-menu{
+	font-size: 17px;
+}

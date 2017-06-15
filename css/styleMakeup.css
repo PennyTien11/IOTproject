@@ -1,0 +1,92 @@
+#upcol{
+	background-color: #afeeee;
+	font-size: 18px;
+	font-family: serif;
+	opacity: 0.9;
+	border: 0;
+}
+
+nav .navbar-brand{
+	font-weight:bold;
+	font-family: sans-serif;
+	font-size:26px;
+}
+
+#upcol .dropdown-menu{
+	font-size: 17px;
+}
+
+#bgp {
+    width: 105%;
+    opacity: 0.2;
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+   	top: 3em;
+   	left: 0;
+   	right:0;
+   	bottom: 0;
+}
+
+body{
+	display:block;
+	padding-top: 4em;
+	margin-left: 4%;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	margin: 30px 40px;
+	padding-bottom: 50px;
+	z-index: 40;
+	float:left;
+}
+.modal-content{
+	top:30px;
+	height: 30em;
+}
+.modal-content select{
+	width: 100px;
+	margin: 10px;
+}
+
+#selector{
+	width: 100px;
+	position: relative;
+	top:19px;
+	left:20px;
+}
+.modal-content .form-group{
+	float: left;
+}
+.form-group input{
+	margin-left: 1px;
+	left:1px;
+}
+table{
+	position: relative;
+	margin:auto;
+	width: 50%;
+	opacity: 5;
+	color: #008b8b;
+	font-weight:bold;
+	font-size: 18px;
+	top:10px;
+}
+
+#start{
+	position: fixed;
+	right: 80px;
+	top:100px;
+	width: 100px;
+	height: 40px;
+}
+
+.item .pics #title{
+	padding-top:10px;
+	text-align:center;
+	font-family:Microsoft JhengHei;
+	font-size:20px;
+}
+
